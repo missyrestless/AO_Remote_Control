@@ -22,8 +22,13 @@ The Vista animation overriders in Second Life are based on the ZHAO-II engine
 (by Ziggy Puff, mod by Marcus Gray, Johann Ehrler and Moeka Kohime) and the
 Vista AOs that were tested contain the ZHAO-II-core MGJEmod 1.1.9 script.
 
-Even though the Vista animation creator does not disclose the GPLv2 source,
-the header of the ZHAO-II-core MGJEmod 1.1.9 script mentions the following:
+The Vista Animations creator does not disclose the GPLv2 source as required
+by the license. Most of the AO's in Second Life are based on the ZHAO engine.
+It is rare to find a ZHAO based AO that complies with the terms of the GPL license.
+Vista is not alone in violating these terms, almost all AO providers do not
+comply with the terms of the GPL licensed ZHAO AO engine from which they were derived.
+
+However, the header of the ZHAO-II-core MGJEmod 1.1.9 script mentions the following:
 
 ```lsl
 // ZHAO-II-core - Ziggy Puff, 07/07
@@ -63,6 +68,9 @@ the header of the ZHAO-II-core MGJEmod 1.1.9 script mentions the following:
 //
 //   llMessageLinked(LINK_SET, 0, "ZHAO_AOON", NULL_KEY);
 ```
+
+Using these specifications the Truth &amp; Beauty Lab created a ZHAO Interface
+script which allows remote control of ZHAO based AO's.
 
 ## AO Control Gestures
 
