@@ -1,0 +1,57 @@
+Truth & Beauty AO Remote Control and Gestures
+----------------------------------------------
+
+The Truth & Beauty AO Remote Control allows you to control a ZHAO based Animation Overrider with gestures or chat commands. Most AO's in Second Life are based on the ZHAO AO engine created and released under the GPL v2 license by Ziggy Puff. This includes the popular Vista Animations AOs. Any ZHAO based AO can be controlled using the 'zhao_interface', chat commands, and the included gestures.
+
+ZHAO Interface script
+----------------------
+
+The 'zhao_interface.lsl' script provides an interface between a ZHAO based Animation Overrider and commands given on a private chat channel. Drag and drop 'zhao_interface' into the Contents tab of a ZHAO based AO.
+
+Use the accompanying gestures to issue commands to the ZHAO AO.
+
+For example, once the 'zhao_interface' script is copied into the AO and the gestures are activated, to enable the AO the owner can type '/aoon' in local chat. To disable the AO, the owner can type '/aooff' in local chat. The gestures translate these local chat triggers into the appropriate command on the private channel.
+
+Not all commands can be performed with gestures. Commands that require an argument like loading a notecard or setting the stand time must be executed by chatting directly on the listen channel. The 'zhao_interface' script listens on channel 935840. This channel can be used to send commands to the AO directly, bypassing the gestures. For example, to load a notecard named 'AO.MyDefaults' send the following in chat:
+
+    /935840 aoload AO.MyDefaults
+
+To set the stand time to 60 seconds send the following in chat:
+
+    /935840 aostandtime 60
+
+When chatting directly on the 'zhao_interface' channel it is not necessary to activate the gestures. All of the supported AO commands can be performed in this manner. The gestures are provided as a convenience. For example, the AO can be enabled with either of these:
+
+    /935840 aoon
+
+or, if the 'AO ON' gesture is activated:
+
+    /aoon
+
+AO Control Gestures
+--------------------
+
+The Truth & Beauty Lab provides gestures as a convenient way to control a ZHAO Interface enabled AO. The following gestures and their trigger phrases are provided:
+
+Gesture Name       Trigger Phrase         Description
+------------       --------------         -----------
+  AO AOON              /aoon                AO On  
+  AO AOOFF             /aooff               AO Off  
+  AO SITON             /aositon             Sit On  
+  AO SITOFF            /aositoff            Sit Off  
+  AO RESET             /aoreset             Reset script  
+  AO LOAD              /aoload notecard     Load specified notecard  
+  AO NEXTSTAND         /aonext              Switch to next stand  
+  AO STANDTIME         /aostand time        Time between stands. Specified in seconds, expects an integer.  
+  AO RANDOMSTANDS      /aorandom            Stands cycle randomly  
+  AO SEQUENTIALSTANDS  /aoseq               Stands cycle sequentially  
+  AO SETTINGS          /aosettings          Prints status  
+  AO SITS              /aosits              Select a sit  
+  AO GROUNDSITS        /aogroundsits        Select a ground sit  
+  AO WALKS             /aowalks             Select a walk  
+  AO SITANYWHERE_ON    /aositanyon          Sit Anywhere mod On   
+  AO SITANYWHERE_OFF   /aositanyoff         Sit Anywhere mod Off   
+  AO TYPE_ON           /aotypeon            Typing AO On   
+  AO TYPE_OFF          /aotypeoff           Typing AO Off   
+  AO TYPEKILL_ON       /aotypekillon        Typing Killer On   
+  AO TYPEKILL_OFF      /aotypekilloff       Typing Killer Off   
