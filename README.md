@@ -9,12 +9,45 @@ Animation Overrider (AO) and commands given on a private chat channel.
 
 Drag and drop `zhao_interface` into the Contents tab of a ZHAO based AO.
 
-Use the accompanying gestures to issue commands to the ZHAO AO
+Use the accompanying gestures to issue commands to the ZHAO AO.
 
-For example, once the gestures are activated, to enable the AO,
-the owner can type `/aoon` in local chat. To disable the AO, owner
-can type `/aooff` in local chat. The gestures translate these local
-chat triggers into the appropriate command on the private channel.
+For example, once the `zhao_interface` script is copied into the AO
+and the gestures are activated, to enable the AO the owner can type
+`/aoon` in local chat. To disable the AO, the owner can type `/aooff`
+in local chat. The gestures translate these local chat triggers into
+the appropriate command on the private channel.
+
+Not all commands can be performed with gestures. Commands that require an
+argument like loading a notecard or setting the stand time must be executed
+by chatting directly on the listen channel. The `zhao_interface` script listens
+on channel 935840. This channel can be used to send commands to the AO directly,
+bypassing the gestures. For example, to load a notecard named `AO.MyDefaults`
+send the following in chat:
+
+```
+/935840 aoload AO.MyDefaults
+```
+
+To set the stand time to 60 seconds send the following in chat:
+
+```
+/935840 aostandtime 60
+```
+
+When chatting directly on the `zhao_interface` channel it is not necessary to
+activate the gestures. All of the supported AO commands can be performed in this
+manner. The gestures are provided as a convenience. For example, the AO can be
+enabled with either of these:
+
+```
+/935840 aoon
+```
+
+or, if the `AO ON` gesture is activated:
+
+```
+/aoon
+```
 
 ### Vista Animations AO
 
