@@ -1,6 +1,10 @@
-# AO Remote Control
+# Truth & Beauty AO Remote Control
 
-Control a ZHAO II based Animation Overrider with Gestures.
+The Truth & Beauty AO Remote Control is an enhanced ZHAO II based Animation Overrider (AO) with chat commands and gestures to control the AO. The animations, gestures, scripts, and notecards are all full perm, Copy/Modify/Transfer.
+
+The AO Remote Control allows you to control any ZHAO II based Animation Overrider with gestures or chat commands. Most AO's in Second Life are based on the ZHAO II AO engine created and released under the GPL v2 license by Ziggy Puff. This includes the popular Vista Animations AOs. Any ZHAO II based AO can be controlled using the 'ZHAO Interface', chat commands, and the included gestures.
+
+A preloaded ZHAO II Animation Overrider is included as an example AO. This fully functional AO is free, full perm, and has been preconfigured with the 'ZHAO Interface' script for use with the remote control gestures and chat commands. You are free to use, copy, and modify this example AO.
 
 ## Table of Contents
 
@@ -13,7 +17,7 @@ Control a ZHAO II based Animation Overrider with Gestures.
 
 The quickest way to setup a ZHAO II based Animation Overrider (AO) with
 remote control commands enabled is to wear the Truth &amp; Beauty AO
-included with the product. This demonstration AO is fully functional and
+included with the product. This example AO is fully functional and
 preconfigured with the ZHAO Interface script.
 
 If you prefer to customize an existing AO rather than using the Truth &amp;

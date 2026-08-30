@@ -1,6 +1,3 @@
-Truth & Beauty AO Remote Control and Gestures
-----------------------------------------------
-
 The Truth & Beauty AO Remote Control is an enhanced ZHAO II based Animation Overrider (AO) with chat commands and gestures to control the AO. The animations, gestures, scripts, and notecards are all full perm, Copy/Modify/Transfer.
 
 The AO Remote Control allows you to control any ZHAO II based Animation Overrider with gestures or chat commands. Most AO's in Second Life are based on the ZHAO II AO engine created and released under the GPL v2 license by Ziggy Puff. This includes the popular Vista Animations AOs. Any ZHAO II based AO can be controlled using the 'ZHAO Interface', chat commands, and the included gestures.
@@ -19,39 +16,10 @@ The quickest way to setup a ZHAO II based Animation Overrider (AO) with remote c
 
 If you prefer to customize an existing AO rather than using the Truth & Beauty AO then drag and drop the `ZHAO Interface` script into the Contents tab of a ZHAO II based AO.
 
-How to Customize your Existing AO
-----------------------------------
-
-Any ZHAO II based AO can be customized with the 'ZHAO Interface' script. Simply drag and drop the script into the Contents tab of the AO:
-
-1. If you are wearing an AO, detach it.
-
-2. Find the AO in your inventory. If you have multiple AOs, find the right one that you want to edit.
-
-3. Make sure you are on land where you can rez objects. If you're not sure, go to a sandbox.
-
-4. Drag the AO from your inventory onto the ground.
-
-5. Right click the AO on the ground and select 'Edit' 
-
-6. In the Edit window, click the 'Content' tab. You may need to click the double right arrows (>>) on the right side of the window to see the Content tab.
-
-7. Locate the 'ZHAO Interface' script in your inventory.
-
-8. Drag the ZHAO Interface script from your inventory into the Content tab or the Edit window.
-
-9. Close the Edit window.
-
-10. Take the AO back into your inventory.
-
-11. Wear the AO.
-
-The customized AO can now be controlled using the gestures and chat commands described below.
-
 ZHAO Interface script
 ----------------------
 
-The 'zhao_interface.lsl' script provides an interface between a ZHAO II based Animation Overrider and commands given on a private chat channel. Drag and drop 'ZHAO Interface' into the Contents tab of a ZHAO II based AO.
+The 'ZHAO Interface' script provides an interface between a ZHAO II based Animation Overrider and commands given on a private chat channel. Drag and drop 'ZHAO Interface' into the Contents tab of a ZHAO II based AO.
 
 Use the accompanying gestures to issue commands to the AO.
 

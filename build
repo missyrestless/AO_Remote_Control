@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Set to a destination folder to copy files to
+DEST="${HOME}/transfers/ao"
+
+make clean
+make
+[ $? -eq 0 ] && {
+  [ -x trim_lslo ] && {
+    echo "Trimming comments from optimized LSL script"
+    ./trim_lslo
+  }
+  cd AO
+  ../trim_lslo
+  cd ..
+}
+
+[ "$1" == "-c" ] && {
+  rm -rf ${DEST}
+  mkdir -p ${DEST}
+
+  if [ -f zhao_interface.lslo ]; then
+    cp zhao_interface.lslo ${DEST}/"ZHAO Interface"
+  else
+    echo "ERROR: Cannot locate zhao_interface.lslo"
+  fi
+  if [ -f AO/iAO-core_MGJEmod_1.1.16.lslo ]; then
+    cp AO/iAO-core_MGJEmod_1.1.16.lslo ${DEST}/"iAO-core MGJEmod 1.1.16"
+  else
+    echo "ERROR: Cannot locate AO/iAO-core_MGJEmod_1.1.16.lslo"
+  fi
+  if [ -f AO/iAO-HUD_Position_handler_0.0.4.lslo ]; then
+    cp AO/iAO-HUD_Position_handler_0.0.4.lslo ${DEST}/"iAO-HUD Position handler 0.0.4"
+  else
+    echo "ERROR: Cannot locate AO/iAO-HUD_Position_handler_0.0.4.lslo"
+  fi
+  if [ -f AO/iAO-interface_MGJEmod_1.0.14.lslo ]; then
+    cp AO/iAO-interface_MGJEmod_1.0.14.lslo ${DEST}/"iAO-interface MGJEmod 1.0.14"
+  else
+    echo "ERROR: Cannot locate AO/iAO-interface_MGJEmod_1.0.14.lslo"
+  fi
+  if [ -f AO/iAO-loadcards_0.0.9.lslo ]; then
+    cp AO/iAO-loadcards_0.0.9.lslo ${DEST}/"iAO-loadcards 0.0.9"
+  else
+    echo "ERROR: Cannot locate AO/iAO-loadcards_0.0.9.lslo"
+  fi
+  if [ -f AO/iAO-ONOFF_button_color_0.0.1.lslo ]; then
+    cp AO/iAO-ONOFF_button_color_0.0.1.lslo ${DEST}/"iAO-ONOFF button color 0.0.1"
+  else
+    echo "ERROR: Cannot locate AO/iAO-ONOFF_button_color_0.0.1.lslo"
+  fi
+  cp COPYRIGHT LICENSE Instructions.txt ZHAO_II_Documentation.txt VERSION ${DEST}
+}
