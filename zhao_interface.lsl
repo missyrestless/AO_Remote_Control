@@ -53,6 +53,9 @@
 //
 //   llMessageLinked(LINK_SET, 0, "ZHAO_AOON", NULL_KEY);
 
+string VERSION = "1.0.2";
+string VERINFO = "Truth & Beauty AO Remote Control version " + VERSION;
+
 default
 {
     state_entry() {
@@ -129,14 +132,19 @@ default
             // Join the remaining words back together with a space
             llMessageLinked(LINK_SET, 0, "ZHAO_STANDTIME|" + llDumpList2String(time, " "), NULL_KEY);
             return;
+        } else if (cmd == "version") {
+            llOwnerSay(VERINFO);
+            return;
         }
     }
  
     on_rez(integer num) {
+        llOwnerSay(VERINFO);
         llResetScript();
     }
  
     changed(integer channel) {
+        llOwnerSay(VERINFO);
         llResetScript();
     }
 }

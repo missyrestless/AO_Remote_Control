@@ -104,3 +104,12 @@ Gesture Name       Trigger Phrase         Description
   AO TYPE_OFF          /aotypeoff           Typing AO Off   
   AO TYPEKILL_ON       /aotypekillon        Typing Killer On   
   AO TYPEKILL_OFF      /aotypekilloff       Typing Killer Off   
+
+Github Repository
+------------------
+
+The Truth & Beauty AO scripts have been optimized with LSL-PyOptimizer in order to reduce memory usage and improve performance. The scripts in the AO are full permission but have been somewhat obfuscated by the optimizer. Source code for all scripts can be found in the Truth & Beauty AO Github repository at https://github.com/missyrestless/AO_Remote_Control
+
+These scripts can be downloaded, copied, modified, and redistributed under the terms and conditions of the GNU Public License version 3 (GPLv3). The Truth & Beauty AO Github repository is also where you can find the latest updates to these scripts and update your AO if you wish.
+
+Issues with the Truth & Beauty AO can be reported at https://github.com/missyrestless/AO_Remote_Control/issues

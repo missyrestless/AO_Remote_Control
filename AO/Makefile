@@ -27,7 +27,7 @@ OPTIMIZED=iAO-core_MGJEmod_1.1.16.lslo\
  iAO-HUD_Position_handler_0.0.4.lslo\
  iAO-interface_MGJEmod_1.0.14.lslo\
  iAO-loadcards_0.0.9.lslo\
- iAO-ONOFF_button_color_0.0.1.lsl
+ iAO-ONOFF_button_color_0.0.1.lslo
 
 UNOPTIMIZED=
 
