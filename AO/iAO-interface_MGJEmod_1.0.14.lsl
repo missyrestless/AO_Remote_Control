@@ -112,7 +112,7 @@
 
 
 // Help notecard
-string helpNotecard = "READ ME FIRST - iAO";
+string helpNotecard = "READ ME FIRST - ZHAO-II";
 
 // How long before flipping stand animations
 integer standTimeDefault = 30;

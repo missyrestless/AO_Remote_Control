@@ -19,4 +19,6 @@ make
   cp iAO-interface_MGJEmod_1.0.14.lslo ${DEST}/"iAO-interface MGJEmod 1.0.14"
   cp iAO-loadcards_0.0.9.lslo ${DEST}/"iAO-loadcards 0.0.9"
   cp iAO-ONOFF_button_color_0.0.1.lslo ${DEST}/"iAO-ONOFF button color 0.0.1"
+  cp READ_ME_FIRST_-_ZHAO-II.txt ${DEST}/"READ ME FIRST - ZHAO-II"
+  cp Default ${DEST}
 }

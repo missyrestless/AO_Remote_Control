@@ -1,6 +1,7 @@
 Truth & Beauty AO : Animation Overrider HUD with Remote Controls
+----------------------------------------------------------------
 
-ZHAO-II by Ziggy Puff, mod by Missy Restless, Marcus Gray, Johann Ehrler & Moeka Kohime
+Derived from ZHAO-II by Ziggy Puff, modified by Missy Restless, Marcus Gray, Johann Ehrler & Moeka Kohime
 
 ========================
 NEW in Truth & Beauty AO
@@ -22,7 +23,6 @@ NEW in Truth & Beauty AO
 
 * More memory for more animations!  ;-)
 
-
 ================
 If you need help
 ================
@@ -36,7 +36,6 @@ If you need help with the animations, you need to contact the person you bought 
 * If you bought the AO recently, check your account history. Click on the 'World' menu at the top of your screen, and select 'Account History' to be taken to your Second Life account web page.
 
 * If you remember the store you bought it from, go back there and see who owns the vendor that you got the AO from.
-
 
 If you need help with the AO functions, read on. You can also join the 'ZHAO Help' group and ask questions there.
 
