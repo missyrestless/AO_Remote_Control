@@ -1,17 +1,54 @@
 # AO Remote Control
 
-Control a ZHAO based Animation Overrider with Gestures.
+Control a ZHAO II based Animation Overrider with Gestures.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [ZHAO Interface script](#zhao-interface-script)
+  - [Vista Animations AO](#vista-animations-ao)
+- [AO Control Gestures](#ao-control-gestures)
+
+## Getting Started
+
+The quickest way to setup a ZHAO II based Animation Overrider (AO) with
+remote control commands enabled is to wear the Truth &amp; Beauty AO
+included with the product. This demonstration AO is fully functional and
+preconfigured with the ZHAO Interface script.
+
+If you prefer to customize an existing AO rather than using the Truth &amp;
+Beauty AO then drag and drop the `ZHAO Interface` script into the Contents
+tab of a ZHAO II based AO.
+
+### How to Customize your Existing AO
+
+Any ZHAO II based AO can be customized with the `ZHAO Interface` script.
+Simply drag and drop the script into the Contents tab of the AO:
+
+1. If you are wearing an AO, detach it.
+1. Find the AO in your inventory. If you have multiple AOs, find the right one that you want to edit.
+1. Make sure you are on land where you can rez objects. If you are not sure, go to a sandbox.
+1. Drag the AO from your inventory onto the ground.
+1. Right click the AO on the ground and select `Edit` 
+1. In the Edit window, click the `Content` tab. You may need to click the double right arrows (>>) on the right side of the window to see the Content tab.
+1. Locate the `ZHAO Interface` script in your inventory.
+1. Drag the ZHAO Interface script from your inventory into the Content tab or the Edit window.
+1. Close the Edit window.
+1. Take the AO back into your inventory.
+1. Wear the AO.
+
+The customized AO can now be controlled using the gestures and chat commands described below.
 
 ## ZHAO Interface script
 
 The `zhao_interface.lsl` script provides an interface between a ZHAO based
 Animation Overrider (AO) and commands given on a private chat channel.
 
-Drag and drop `zhao_interface` into the Contents tab of a ZHAO based AO.
+Drag and drop `ZHAO Interface` into the Contents tab of a ZHAO based AO.
 
 Use the accompanying gestures to issue commands to the ZHAO AO.
 
-For example, once the `zhao_interface` script is copied into the AO
+For example, once the `ZHAO Interface` script is copied into the AO
 and the gestures are activated, to enable the AO the owner can type
 `/aoon` in local chat. To disable the AO, the owner can type `/aooff`
 in local chat. The gestures translate these local chat triggers into
@@ -19,7 +56,7 @@ the appropriate command on the private channel.
 
 Not all commands can be performed with gestures. Commands that require an
 argument like loading a notecard or setting the stand time must be executed
-by chatting directly on the listen channel. The `zhao_interface` script listens
+by chatting directly on the listen channel. The `ZHAO Interface` script listens
 on channel 935840. This channel can be used to send commands to the AO directly,
 bypassing the gestures. For example, to load a notecard named `AO.MyDefaults`
 send the following in chat:
@@ -34,7 +71,7 @@ To set the stand time to 60 seconds send the following in chat:
 /935840 aostandtime 60
 ```
 
-When chatting directly on the `zhao_interface` channel it is not necessary to
+When chatting directly on the `ZHAO Interface` channel it is not necessary to
 activate the gestures. All of the supported AO commands can be performed in this
 manner. The gestures are provided as a convenience. For example, the AO can be
 enabled with either of these:
