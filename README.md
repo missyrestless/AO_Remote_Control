@@ -6,6 +6,12 @@ The AO Remote Control allows you to control any ZHAO II based Animation Override
 
 A preloaded ZHAO II Animation Overrider is included as an example AO. This fully functional AO is free, full perm, and has been preconfigured with the 'ZHAO Interface' script for use with the remote control gestures and chat commands. The Truth &amp; Beauty AO contains 84 full permission animations. You are free to use, copy, and modify this example AO.
 
+<table>
+  <tr>
+    <td align="center"><img src="./AO/truth_beauty_ao.png?raw=true" title="Truth & Beauty AO" width="333" height="350" /></td>
+  </tr>
+</table>
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)

@@ -1,13 +1,13 @@
 The Truth & Beauty AO Remote Control is an enhanced ZHAO II based Animation Overrider (AO) with chat commands and gestures to control the AO. The animations, gestures, scripts, and notecards are all full perm, Copy/Modify/Transfer.
 
-The AO Remote Control allows you to control any ZHAO II based Animation Overrider with gestures or chat commands. Most AO's in Second Life are based on the ZHAO II AO engine created and released under the GPL v2 license by Ziggy Puff. This includes the popular Vista Animations AOs. Any ZHAO II based AO can be controlled using the 'ZHAO Interface', chat commands, and the included gestures.
+The AO Remote Control allows you to control any ZHAO II based AO with gestures or chat commands. Most AO's in Second Life are based on the ZHAO II AO engine created and released under the GPL v2 license by Ziggy Puff. This includes the popular Vista Animations AOs.
 
-A preloaded ZHAO II Animation Overrider is included as an example AO. This fully functional AO is free, full perm, and has been preconfigured with the 'ZHAO Interface' script for use with the remote control gestures and chat commands. The Truth & Beauty AO contains 84 full permission animations. You are free to use, copy, and modify this example AO.
+A preloaded AO is included, the Truth & Beauty AO. This fully functional AO is full perm, and has been preconfigured with the 'ZHAO Interface' script for use with the remote control gestures and chat commands. The Truth & Beauty AO contains 84 full permission animations. You are free to use, copy, and modify this example AO.
 
 Getting Started
 ----------------
 
-The quickest way to setup a ZHAO II based Animation Overrider (AO) with remote control commands enabled is to wear the Truth & Beauty AO included with the product. This example AO is fully functional and preconfigured with the ZHAO Interface script.
+The quickest way to setup a ZHAO II based AO with remote control commands enabled is to wear the Truth & Beauty AO included with the product. This example AO is fully functional and preconfigured with the ZHAO Interface script.
 
 - Disable any existing AO
 - Wear the Truth & Beauty AO
@@ -19,7 +19,7 @@ If you prefer to customize an existing AO rather than using the Truth & Beauty A
 ZHAO Interface script
 ----------------------
 
-The 'ZHAO Interface' script provides an interface between a ZHAO II based Animation Overrider and commands given on a private chat channel. Drag and drop 'ZHAO Interface' into the Contents tab of a ZHAO II based AO.
+The 'ZHAO Interface' script provides an interface between a ZHAO II based AO and commands given on a private chat channel. Drag and drop 'ZHAO Interface' into the Contents tab of a ZHAO II based AO.
 
 Use the accompanying gestures to issue commands to the AO.
 
